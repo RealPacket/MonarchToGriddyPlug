@@ -1,0 +1,12 @@
+[package]
+name = "monarch-to-griddy-plug"
+version = "0.0.1"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+full_moon = { version = "0.19.0", features = ["roblox"] }
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
